@@ -130,9 +130,12 @@ h2 {
 	margin-bottom: 30px;
 }
 .box{
+	display: inline-block;
 	width: 570px;
 }
 .box2{
+
+	vertical-align: top;
 	width: 570px;
 	padding-left: 30px;
 }
@@ -141,26 +144,25 @@ h2 {
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 	font-size: 20px;
 	color: #3D58A6;
+	display: inline-block;
+	margin-top: 90px;
 	margin-left: 70px;
-
-
 }
-span{
-	font-family: "BPG Glaho Arial", sans-serif;
-	font-size: 16px;
-	color: #808080
-}
-
+ 
 .adress{
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 	font-size: 16px;
 	margin-left: 70px;
 }
 
+span{
+	font-family: "BPG Glaho Arial", sans-serif;
+	font-size: 16px;
+	color: #808080
+}
+
 .map{
+	margin-top: 75px;
 	margin-left: 400px;
-	background-color: #E6E6E6;
-	width: 1366px;
-	height: 570px;
-	margin-top: 50px;
+	
 }
