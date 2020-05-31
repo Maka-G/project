@@ -10,6 +10,11 @@ body{
 
 nav{
 	display: inline-block;
+	color: #3D58A6;
+}
+
+nav .active{
+	color: #EE4036;
 }
 
 li {
@@ -20,19 +25,7 @@ li {
 	margin-right: 30px;
 }
 
-.nbar1{
-	color: #3D58A6;
-	
-}
-.nbar2{
-	color: #EE4036;
-	
-}
-.nbar3{
-	color: #3D58A6;
-}
-
-.number{
+.number {
 	display: inline-block;
 	text-align-last: center;
 	font-family: "BPG Nino Mtavruli", sans-serif;
@@ -102,7 +95,6 @@ h2 {
 }
 
 .icon{
-
 	height: 30px;
 	margin-top: 40px;
 	margin-bottom: 30px;
@@ -140,15 +132,6 @@ h2 {
 	padding-left: 30px;
 }
 
-.contact{
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
-	font-size: 20px;
-	color: #3D58A6;
-	display: inline-block;
-	margin-top: 90px;
-	margin-left: 70px;
-}
- 
 .adress{
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 	font-size: 16px;
@@ -159,6 +142,7 @@ span{
 	font-family: "BPG Glaho Arial", sans-serif;
 	font-size: 16px;
 	color: #808080
+	margin-left: 70px;
 }
 
 .map{
@@ -166,3 +150,19 @@ span{
 	margin-left: 400px;
 	
 }
+.inffo{
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-size: 20px;
+	color: #3D58A6 ;
+	margin-left: 70px;
+	margin-top: 90px;
+	display: inline-block;
+
+}
+
+.adress{
+	text-align: left;
+	margin-left: 70px;
+
+}
+
